@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const userRoutes = require('./routes/user.router')
+const userRoutes = require('./routes/user.routes')
 
 app.use('/',userRoutes)
 
